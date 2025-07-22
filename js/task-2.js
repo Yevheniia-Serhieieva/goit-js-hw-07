@@ -39,4 +39,10 @@ const res = images.map(el => {
 
 ulElem.append(...res);
 
+const liElem = document.querySelectorAll('li');
+console.log(liElem);
+
+liElem.forEach(item => {
+  item.classList.add('js-list-item');
+})
 

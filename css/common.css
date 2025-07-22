@@ -28,5 +28,15 @@ img {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  row-gap: 48px;
+  column-gap: 24px;
+  justify-content: center;
+}
+
+.js-list-item {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-basis: calc((100% - 48px) / 3);
 }
